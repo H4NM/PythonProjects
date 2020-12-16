@@ -12,3 +12,8 @@ Using Tkinter, a secure password can be generated with a basic GUI. This is a si
 offered by multiple password managers and most modern web browsers when entering password. However, in some
 cases, local passwords are also needed... Supports combination of letters (Lower- and uppercase), numbers and symbols. 
 6-100 characters in length. 
+
+### Steganography example.py
+Also using Tkinter, a message can be encoded within an image. The following py-file allows for encoding and decoding. However,
+as of now it may only produce encoded .png files. Although, this also means that it can encode jpg/jpeg/png files and save them to .png.
+In addition, there's also the possibility of reading the messages. 
