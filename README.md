@@ -17,3 +17,8 @@ cases, local passwords are also needed... Supports combination of letters (Lower
 Also using Tkinter, a message can be encoded within an image. The following py-file allows for encoding and decoding. However,
 as of now it may only produce encoded .png files. Although, this also means that it can encode jpg/jpeg/png files and save them to .png.
 In addition, there's also the possibility of reading the messages. 
+
+### Caesar cipher.py
+Script for using substutitution encryption technique caesar cipher that shifts characters in a message. 
+Allows for encoding of input with desired number of shifts. For decoding a message, prints all possible combinations incase the number of shifts is unknown. 
+
