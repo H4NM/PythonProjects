@@ -23,5 +23,6 @@ Script for using substutitution encryption technique caesar cipher that shifts c
 Allows for encoding of input with desired number of shifts. For decoding a message, prints all possible combinations incase the number of shifts is unknown. 
 
 ### Minesweeper.py
-Not an infosec oriented py.file. Used pygame to construct my own version of Minesweeper as a coding challenge.  
+Not an infosec oriented project. Used pygame to construct my own version of Minesweeper as a coding challenge. Intended to enable a start screen in which the 
+number of tiles could be chosen as different difficulties. In addition, there's also room for increasing the number of mines spawned. Although, that would most likely conflict with user experience. 
 ![alt text](https://raw.githubusercontent.com/H4NM/PythonProjects/main/images/minesweeperpic.png)
