@@ -24,4 +24,4 @@ Allows for encoding of input with desired number of shifts. For decoding a messa
 
 ### Minesweeper.py
 Not an infosec oriented py.file. Used pygame to construct my own version of Minesweeper as a coding challenge.  
-![alt text](https://github.com/[username]/[reponame]/blob/images/minesweeperpic.png?raw=true)
+![alt text](https://github.com/H¤NM/PythonProjects/blob/images/minesweeperpic.png?raw=true)
