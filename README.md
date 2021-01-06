@@ -22,3 +22,6 @@ In addition, there's also the possibility of reading the messages.
 Script for using substutitution encryption technique caesar cipher that shifts characters in a message. 
 Allows for encoding of input with desired number of shifts. For decoding a message, prints all possible combinations incase the number of shifts is unknown. 
 
+### Minesweeper.py
+Not an infosec oriented py.file. Used pygame to construct my own version of Minesweeper as a coding challenge.  
+![alt text](https://github.com/[username]/[reponame]/blob/images/minesweeperpic.png?raw=true)
