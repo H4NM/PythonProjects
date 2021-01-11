@@ -8,7 +8,7 @@ it checks for any security events added to the Windows Event Log. Events like th
 At detection of Security events, it snaps a picture of the possible intruder. Can be allowed to run in the background contiously with locking 
 the screen multiple times without the need of restarting the program. 
 
-Limitations: Must be run with Admin privileges (This is to gain access to Security log)
+Limitations: Must be run with Admin privileges (This is to gain access to Security log), requires installment of 'pywin32' and 'opencv-python' 
 
 Downsides: Collects all security events, including successful logons. This might not be preferred, unless you really like photos of yourself. 
 
