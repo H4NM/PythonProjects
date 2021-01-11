@@ -9,6 +9,7 @@ At detection of Security events, it snaps a picture of the possible intruder. Ca
 the screen multiple times without the need of restarting the program. 
 
 Limitations: Must be run with Admin privileges (This is to gain access to Security log)
+
 Downsides: Collects all security events, including successful logons. This might not be preferred, unless you really like photos of yourself. 
 
 ### BrowserHistory.py
