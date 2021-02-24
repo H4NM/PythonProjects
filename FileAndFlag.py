@@ -1,12 +1,7 @@
-import string
-import re
-import os, os.path
-import time
-import magic
+import string, re, os, os.path, time, magic, sys
 from PIL import Image, ExifTags
 
 
-IMAGE_FORMATS = ['.jpg', '.JPG', '.png', '.PNG', '.gif', '.GIF']
 
 class File():
     def __init__(self, file, **kwargs):
@@ -124,9 +119,17 @@ class File():
         else:
             print("Sorry, there doesn't seem to be any exif-data.")
 
-####### 
-FILENAME = "222.jpg"
-KEYWORDS = ['flag', 'htb', 'ctf', 'FLAG', 'HTB', 'CTF', '{', '}']
+
+
+### AFAIK GIF DOES NOT WORK
+IMAGE_FORMATS = ['.jpg', '.JPG', '.png', '.PNG']
+
+### FILE TO CHECK
+### TAKES THE FILENAME IF SAME DIRECTORY AS SCRIPT
+FILENAME = sys.argv[1]
+
+### EXAMPLE KEYWORD LIST 
+KEYWORDS = ['flag', 'Flag', 'Htb', 'htb', 'ctf', 'Ctf', 'FLAG', 'HTB', 'CTF', '{', '}']
 
 f = File(FILENAME)
 
