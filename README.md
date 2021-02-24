@@ -13,7 +13,7 @@ Limitations: Must be run with Admin privileges (This is to gain access to Securi
 Downsides: Collects all security events, including successful logons. This might not be preferred, unless you really like photos of yourself. 
 
 ### FileAndFlag.py
-In some flag challenges, flags are hidden as human readable strings in the file. With the suitable unix command 'strings', such a flag can easily be retrieved. However, on a Windows system, it's not always as easy to retrieve the strings. This python script provides information regarding any file, and if the file contains any string with the keywords (flag/FLAG/ctf etc..), or has a simple hidden steganography message, it shows it. 
+In some flag challenges, flags are hidden as human readable strings in the file. With the suitable unix command 'strings', such a flag can easily be retrieved. However, on a Windows system, it's not always as easy to retrieve the strings. This python script provides information regarding any file, and if the file contains any string with the keywords (flag/FLAG/ctf etc..), or has a simple hidden steganography message, it reveals it. Script file takes the name of the file to be investigated as argument. 
 
 ### BrowserHistory.py
 Retrieves browser history from Firefox and Chrome and enables a printing report of the 
