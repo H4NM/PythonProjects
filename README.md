@@ -1,5 +1,5 @@
 # Python Projects
-Contains all sorts of projects, mainly related to information security. 
+Contains all sorts of projects. 
 Coding for fun and to develop my own skills. 
 
 ### IntruderSnapper.py
@@ -34,6 +34,16 @@ In addition, there's also the possibility of reading the messages.
 ### Caesar cipher.py
 Script for using substutitution encryption technique caesar cipher that shifts characters in a message. 
 Allows for encoding of input with desired number of shifts. For decoding a message, prints all possible combinations incase the number of shifts is unknown. 
+
+### Whatsup.py
+By using Selenium i've created a small script that enables tagging/pinging a contact in a group chat on WhatsApp multiple times. 
+My brother is sometimes hard to get in contact with where this script can be quite handy. 
+Requires installment of Selenium and download of GeckoDriver. The location of the driver needs to be included in the system path.
+
+### CryptoTable.py [Incomplete]
+PyQT is another great GUI module for python. A bit better than Tkinter when it comes to creating a Table. This script calls for the CoinGecko API to retrieve
+the Top 100 cryptocurrencies and details regarding them such as the current price, market cap and rank. An ideal addition would be to enable a notifier to if 
+the value of a currency changes and to visualize market change through a period of time. 
 
 ### Minesweeper.py
 Not an infosec oriented project. Used pygame to construct my own version of Minesweeper as a coding challenge. Intended to enable a start screen in which the 
