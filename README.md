@@ -15,6 +15,9 @@ Downsides: Collects all security events, including successful logons. This might
 ### FileAndFlag.py
 In some flag challenges, flags are hidden as human readable strings in the file. With the suitable unix command 'strings', such a flag can easily be retrieved. However, on a Windows system, it's not always as easy to retrieve the strings. This python script provides information regarding any file, and if the file contains any string with the keywords (flag/FLAG/ctf etc..), or has a simple hidden steganography message, it reveals it. Script file takes the name of the file to be investigated as argument. 
 
+### SimplePortscanner.py
+Based on a section in the Udemy course, 'The Complete Python Hacking Course', i've modified the portscanner example to be a bit more extensive. My file includes a threading pause to ensure that the limit of threads is not overexceeded with an additional option of chosing the types of ports to be scanned (Wellknown, Registered, Private/Dynamic). It still holds room of recovering the banner and doing a vulnerability lookup on it. However, that's for a later commit. The portscanner uses the socket and threading module to enable the TCP-portscan on multiple ports simultaneously.  
+
 ### BrowserHistory.py
 Retrieves browser history from Firefox and Chrome and enables a printing report of the 
 found sites, i.e. how many URLs have been through trading sites, or social media. 
